@@ -24,6 +24,7 @@ public class AppTienda implements CommandLineRunner {
 
     @Override
     public void run(String... args) throws SQLException {
+        System.out.println("PATATA");
         ordenadorRepository.findAll().forEach(System.out::println);
     }
 

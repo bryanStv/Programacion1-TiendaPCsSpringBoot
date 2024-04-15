@@ -7,7 +7,7 @@ import java.sql.SQLException;
 import java.util.List;
 
 public interface OrdenadorRepository extends CrudRepository<Ordenador, Long>{
-    List<Ordenador> findOrdenadorByPortatilContaining(int isPortatil) throws SQLException;
-    List<Ordenador> findOrdenadorByCpu(String cpu) throws SQLException;
+    List<Ordenador> findOrdenadorsByPortatilContaining(int isPortatil) throws SQLException;
+    List<Ordenador> findOrdenadorsByCpu(String cpu) throws SQLException;
     Ordenador findById(long id) throws SQLException;
 }

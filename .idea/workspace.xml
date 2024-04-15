@@ -4,14 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9215404f-7810-4a0e-b15c-2b41d576b0a8" name="Changes" comment="Commit 0.1 SpringBoot">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/ieselcaminas/tiendaPCs/AppTienda.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/ieselcaminas/tiendaPCs/controller/OrdenadorController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/ieselcaminas/tiendaPCs/entity/Ordenador.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/ieselcaminas/tiendaPCs/repository/IRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/ieselcaminas/tiendaPCs/repository/OrdenadorRepository.java" afterDir="false" />
+    <list default="true" id="9215404f-7810-4a0e-b15c-2b41d576b0a8" name="Changes" comment="Commit 0.15 SpringBoot">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/ieselcaminas/tiendaPCs/AppTienda.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/ieselcaminas/tiendaPCs/AppTienda.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/ieselcaminas/tiendaPCs/entity/Ordenador.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/ieselcaminas/tiendaPCs/entity/Ordenador.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/ieselcaminas/tiendaPCs/repository/OrdenadorRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/ieselcaminas/tiendaPCs/repository/OrdenadorRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/applications.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/tiendaPCspring.db" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/tiendaPCspring.db" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -47,7 +46,6 @@
     "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "Spring Boot.AppTienda.executor": "Run",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
@@ -96,7 +94,7 @@
       <option name="presentableId" value="Default" />
       <updated>1712817648196</updated>
       <workItem from="1712817649316" duration="5550000" />
-      <workItem from="1713161045682" duration="6999000" />
+      <workItem from="1713161045682" duration="8301000" />
     </task>
     <task id="LOCAL-00001" summary="Commit 0.1 SpringBoot">
       <option name="closed" value="true" />
@@ -106,7 +104,15 @@
       <option name="project" value="LOCAL" />
       <updated>1712823726668</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Commit 0.15 SpringBoot">
+      <option name="closed" value="true" />
+      <created>1713168410952</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1713168410952</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -114,6 +120,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Commit 0.1 SpringBoot" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit 0.1 SpringBoot" />
+    <MESSAGE value="Commit 0.15 SpringBoot" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit 0.15 SpringBoot" />
   </component>
 </project>

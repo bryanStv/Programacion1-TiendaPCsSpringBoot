@@ -14,14 +14,14 @@ public class Ordenador {
     private String modelo;
     private int portatil;
     private String cpu;
-    private String ram;
+    private int ram;
     private String gpu;
     private float precio;
 
     public Ordenador() {
     }
 
-    public Ordenador(Long id, String marca, String modelo, int portatil, String cpu, String ram, String gpu, float precio) {
+    public Ordenador(Long id, String marca, String modelo, int portatil, String cpu, int ram, String gpu, float precio) {
         this.id = id;
         this.marca = marca;
         this.modelo = modelo;
@@ -32,7 +32,7 @@ public class Ordenador {
         this.precio = precio;
     }
 
-    public Ordenador(String marca, String modelo, int portatil, String cpu, String ram, String gpu, float precio) {
+    public Ordenador(String marca, String modelo, int portatil, String cpu, int ram, String gpu, float precio) {
         this.marca = marca;
         this.modelo = modelo;
         this.portatil = portatil;
@@ -74,11 +74,11 @@ public class Ordenador {
         this.cpu = cpu;
     }
 
-    public String getRam() {
+    public int getRam() {
         return ram;
     }
 
-    public void setRam(String ram) {
+    public void setRam(int ram) {
         this.ram = ram;
     }
 
