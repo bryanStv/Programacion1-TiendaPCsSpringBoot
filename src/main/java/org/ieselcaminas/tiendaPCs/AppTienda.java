@@ -1,5 +1,6 @@
 package org.ieselcaminas.tiendaPCs;
 
+import org.ieselcaminas.tiendaPCs.controller.OrdenadorController;
 import org.ieselcaminas.tiendaPCs.entity.Ordenador;
 import org.ieselcaminas.tiendaPCs.repository.OrdenadorRepository;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -15,8 +16,11 @@ import java.util.Optional;
 public class AppTienda implements CommandLineRunner {
     @Autowired
     private OrdenadorRepository ordenadorRepository;
-    public AppTienda(OrdenadorRepository ordenadorRepository){
+    private OrdenadorController ordenadorController;
+
+    public AppTienda(OrdenadorRepository ordenadorRepository, OrdenadorController ordenadorController){
         this.ordenadorRepository = ordenadorRepository;
+        this.ordenadorController = ordenadorController;
     }
     public static void main(String[] args) {
         SpringApplication.run(AppTienda.class, args);
@@ -24,8 +28,10 @@ public class AppTienda implements CommandLineRunner {
 
     @Override
     public void run(String... args) throws SQLException {
-        System.out.println("PATATA");
-        ordenadorRepository.findAll().forEach(System.out::println);
+        //ordenadorRepository.findAll().forEach(System.out::println);
+        //ordenadorRepository.findByOrderByIdDesc().forEach(System.out::println);
+        //ordenadorRepository.findByOrderByPrecioAsc().forEach(System.out::println);
+        System.out.println(ordenadorController.ordenar());;
     }
 
 }

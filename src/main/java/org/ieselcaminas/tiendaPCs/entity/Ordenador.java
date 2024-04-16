@@ -8,7 +8,7 @@ import jakarta.persistence.Id;
 @Entity
 public class Ordenador {
     @Id
-    @GeneratedValue(strategy= GenerationType.AUTO)
+    @GeneratedValue(strategy= GenerationType.IDENTITY)
     private Long id;
     private String marca;
     private String modelo;
@@ -109,9 +109,9 @@ public class Ordenador {
     @Override
     public String toString() {
         if(this.portatil == 0){
-            return String.format("Sobremesa id-->%d\n\tmarca: %s\n\tmodelo: %s\n\tCPU: %s GPU:%s RAM:%s\n\tprecio: %f€",this.id,this.marca,this.modelo,this.cpu,this.gpu,this.ram,this.precio);
+            return String.format("Sobremesa id-->%d\n\tmarca: %s\n\tmodelo: %s\n\tCPU: %s GPU:%s RAM:%sGB\n\tprecio: %f€",this.id,this.marca,this.modelo,this.cpu,this.gpu,this.ram,this.precio);
         }else{
-            return String.format("Portatil id-->%d\n\tmarca: %s\n\tmodelo: %s\n\tCPU: %s GPU:%s RAM:%s\n\tprecio: %f€",this.id,this.marca,this.modelo,this.cpu,this.gpu,this.ram,this.precio);
+            return String.format("Portatil id-->%d\n\tmarca: %s\n\tmodelo: %s\n\tCPU: %s GPU:%s RAM:%sGB\n\tprecio: %f€",this.id,this.marca,this.modelo,this.cpu,this.gpu,this.ram,this.precio);
         }
     }
 }

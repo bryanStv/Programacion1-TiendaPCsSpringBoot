@@ -4,14 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9215404f-7810-4a0e-b15c-2b41d576b0a8" name="Changes" comment="Commit 0.15 SpringBoot">
+    <list default="true" id="9215404f-7810-4a0e-b15c-2b41d576b0a8" name="Changes" comment="Commit 0.2 SpringBoot">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/ieselcaminas/tiendaPCs/controller/CestaController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/ieselcaminas/tiendaPCs/controller/ClienteController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/ieselcaminas/tiendaPCs/entity/Cesta.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/ieselcaminas/tiendaPCs/entity/Cliente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/ieselcaminas/tiendaPCs/repository/CestaRespository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/ieselcaminas/tiendaPCs/repository/ClienteRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/7b33835a-bc45-426a-ab2d-f3e81487f4a5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/7b33835a-bc45-426a-ab2d-f3e81487f4a5.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/ieselcaminas/tiendaPCs/AppTienda.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/ieselcaminas/tiendaPCs/AppTienda.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/ieselcaminas/tiendaPCs/controller/OrdenadorController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/ieselcaminas/tiendaPCs/controller/OrdenadorController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/ieselcaminas/tiendaPCs/entity/Ordenador.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/ieselcaminas/tiendaPCs/entity/Ordenador.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/ieselcaminas/tiendaPCs/repository/IRepository.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/ieselcaminas/tiendaPCs/repository/OrdenadorRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/ieselcaminas/tiendaPCs/repository/OrdenadorRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/applications.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/tiendaPCspring.db" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/tiendaPCspring.db" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,14 +28,26 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "bryanStv"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/bryanStv/TiendaPCsSpringBoot.git",
+    "accountId": "3b99f431-68c3-433a-93dc-32679408ba3a"
+  }
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 6
 }</component>
@@ -38,26 +57,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "Spring Boot.AppTienda.executor": "Run",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "/home/INFORMATICA/alu10187115/IdeaProjects/TiendaPCsSpringBoot/src/main/java/org/example/Main.java",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;Spring Boot.AppTienda.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;/home/INFORMATICA/alu10187115/IdeaProjects/TiendaPCsSpringBoot/src/main/java/org/example/Main.java&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="AppTienda" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="TiendaPCsSpringBoot" />
@@ -81,7 +100,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="jdk-21.0.2-openjdk-21.0.2-4caba194b151-78a6f59c" />
+        <option value="bundled-jdk-9f38398b9061-18abd8497189-intellij.indexing.shared.core-IU-241.14494.240" />
+        <option value="bundled-js-predefined-1d06a55b98c1-74d2a5396914-JavaScript-IU-241.14494.240" />
       </set>
     </attachedChunks>
   </component>
@@ -94,7 +114,9 @@
       <option name="presentableId" value="Default" />
       <updated>1712817648196</updated>
       <workItem from="1712817649316" duration="5550000" />
-      <workItem from="1713161045682" duration="8301000" />
+      <workItem from="1713161045682" duration="9627000" />
+      <workItem from="1713250555656" duration="1917000" />
+      <workItem from="1713252599060" duration="2151000" />
     </task>
     <task id="LOCAL-00001" summary="Commit 0.1 SpringBoot">
       <option name="closed" value="true" />
@@ -112,7 +134,15 @@
       <option name="project" value="LOCAL" />
       <updated>1713168410952</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Commit 0.2 SpringBoot">
+      <option name="closed" value="true" />
+      <created>1713169828781</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1713169828781</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -121,6 +151,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Commit 0.1 SpringBoot" />
     <MESSAGE value="Commit 0.15 SpringBoot" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit 0.15 SpringBoot" />
+    <MESSAGE value="Commit 0.2 SpringBoot" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit 0.2 SpringBoot" />
   </component>
 </project>
